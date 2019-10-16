@@ -396,7 +396,7 @@
                         </h3>
                         <span class="form__subtitle">Для этого заполните форму ниже
                         </span>
-                        <form action="#" id="brif-form">
+                        <form action="mail.php" method="POST" id="brif-form">
                             <div class="input-group">
                                 <input type="text" name="username" class="input brif__input" placeholder="Ваше имя">
                             </div>
@@ -472,7 +472,7 @@
             <h4 class="modal-dialog__title">Узнайте точную стоимость ремонта по телефону!</h4>
             <span class="modal-dialog__subtitle">Заполните поля ниже - мы свяжемся с Вами
             </span>
-            <form class="form modal-dialog__form" id="modal-form">
+            <form action="mail.php" method="POST" class="form modal-dialog__form" id="modal-form">
                 <div class="input-group">
                 <input type="text" name="username" class="modal-dialog__input" placeholder="Ваше имя">
                 </div>
